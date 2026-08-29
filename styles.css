@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 32px;
+    background-color: #f4ede3;
+    color: #2d2925;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Gestaltung des äusserden Eingangsbereichs */
+.eingabe-bereich {
+    background-color: #e7d6ce;
+    padding: 16px;
+    border-radius: 24px;
+}
+
+/* Tabelle innerhalb des Eingabebereichs */
+.eingabe-bereich table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+/* Eingabefelder, Dropdowns und Button im Eingabebereich */
+.eingabe-bereich input,
+.eingabe-bereich select,
+.eingabe-bereich button {
+    width: 100%;
+    box-sizing: border-box;
+}

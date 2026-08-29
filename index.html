@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Projekt 1/styles.css">
+</head>
+
+<body>
+
+    <div>
+        <h1 class="Titel">Tracker</h1>
+    </div>
+
+    <div class="eingabe-bereich">
+        <table>
+                <thead>
+                    <tr>
+                        <th>Datum</th>
+                        <th>Split</th>
+                        <th>Übung</th>
+                        <th>Sätze</th>
+                        <th>Gewicht</th>
+                        <th>Wiederholungen</th>
+                        <th>Kommentar</th>
+                        <th>Aktion</th>
+                    </tr>
+            </thead> 
+            <tbody>
+                <tr>
+                    <td><input type="date"></td>
+
+                    <td>
+                        <select id="split-auswahl">
+                            <option value="">Split auswählen</option>
+                            <option value="upper">Upper Body Split</option>
+                            <option value="lower">Lower Body Split</option>
+                        </select>
+                    </td>
+
+                    <td>
+                        <select id="uebung-auswahl" disabled>
+                            <option value="">Zuerst Split auswählen</option>
+                        </select>
+                    </td> 
+
+                    <td><input type="number" placeholder="Sätze"></td>
+                    <td><input type="number" placeholder="Gewicht"></td>
+                    <td><input type="number" placeholder="Wiederholungen"></td>
+                    <td><input type="text"   placeholder="Kommentar"></td>
+
+                    <td>
+                        <button type="button" id="hinzufuegen-button">
+                            Eingang hinzufügen
+                        </button>
+                    </td>
+                </tr>
+            </tbody>       
+        </table>
+    </div>
+    
+</body>
+
+ <script src="/Projekt 1/script.js" defer></script>
+
+</html>
